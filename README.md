@@ -1,4 +1,4 @@
-# Mi-Ao
+# Mi-Ao 🐶 🐈
 PHP project that carries out veterinary services for dogs and cats (Uses SQL for the Back-End)
 
 ## Relational Model
