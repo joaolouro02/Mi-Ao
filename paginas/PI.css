@@ -1,0 +1,162 @@
+body:before {
+  content: "";
+  display: flex;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("fundo.jpg");
+  background-size: cover;
+  opacity: 0.6;
+}
+
+
+
+#marca {
+  color: rgb(87, 188, 131);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+  font-family: 'Delicious Handrawn';
+  font-size: 2rem;
+  display: inline-block;
+
+}
+
+#marca img {
+  width: 60px;
+  height: 60px;
+
+
+}
+
+#links {
+  float: right;
+  vertical-align: middle;
+  padding: 10px;
+
+}
+
+#links button a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 50px 0px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #00285f83;
+}
+
+button:hover {
+  background-color: #000000;
+
+}
+
+#links button:hover a {
+  color: #ffffff;
+}
+
+nav ul button {
+
+  padding: 8px 40px;
+  /*1ºarg-altura 2º-largura*/
+  cursor: pointer;
+  margin-left: 30px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+#imagem {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+#imagem img {
+  padding-top: 150px;
+  padding-left: 520px;
+}
+
+.contactos {
+  width: 25%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 5px solid rgb(65, 200, 119);
+
+
+}
+
+.contactos p {
+  text-align: left;
+}
+
+.social {
+  width: 25%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(65, 200, 119);
+  float: right;
+  text-align: center;
+  margin-top: 180px;
+
+
+}
+
+.social img {
+  float: right;
+  width: 30px;
+  height: 30px;
+  padding-left: 20px;
+  margin-right: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 700px;
+}
+
+
+
+.precario {
+  margin-top: 150px;
+}
+
+.precario img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.precario table td {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}

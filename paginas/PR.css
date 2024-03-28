@@ -1,0 +1,78 @@
+
+.formulario {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 8px;
+    
+  }
+
+#login{
+    width: 88%; 
+    padding: 18px 6% 60px 6%;
+    margin: 0 0 35px 0;
+    background: rgb(247, 247, 247);
+    border: 1px solid rgba(147, 184, 189,0.8);
+    
+  }
+
+#login h1{
+    font-size: 48px;
+    color: #066a75;
+    padding: 0px 0px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+
+  
+  #login {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  
+  label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 0.8em;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #000786;
+  }
+  
+
+  img{
+    width: 50%;
+    height: 75px;
+    margin-left: 100px;
+  }
+  
+  

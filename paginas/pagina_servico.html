@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .container {
+      text-align: center;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      height: 300px;
+
+
+    }
+
+    .col {
+      flex: 1;
+      margin: 0 10px;
+
+
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+    }
+
+    input {
+      display: block;
+      margin: 10px auto 0;
+    }
+
+    input[type="radio"],
+    input[type="submit"] {
+
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      outline: none;
+    }
+
+    input[type="submit"] {
+      width: 100px;
+      height: 40px;
+      background-color: #2196f3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0c7cd5;
+    }
+  </style>
+
+  <form action="servico.php" method="get">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="cao.png">
+          <input type="radio" name="animal[]" value="Cao" />
+        </div>
+        <div class="col">
+          <img src="gato.png">
+          <input type="radio" name="animal[]" value="Gato" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="tesoura.png">
+          <input type="radio" name="tipo[]" value="Cortar" />
+        </div>
+        <div class="col">
+          <img src="lavar.png">
+          <input type="radio" name="tipo[]" value="Lavar" />
+        </div>
+
+      </div>
+
+    </div>
+    <input type="submit" value="Ir">
+  </form>
+
+
+</html>
